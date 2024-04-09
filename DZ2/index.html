@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="1.js" defer></script>
+  <script src="2.js" defer></script>
+</head>
+<body>
+  <div class="conteiner">
+    <div class="products">
+      <div id="product1" class="product">
+        <h3 class="product__title">Apple iPhone 13</h3>
+        <p class="product__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quia consequuntur, sequi nisi quasi cupiditate?
+        </p>
+        <p class="product__price">18000.00</p>
+      </div>
+      <div id="product2" class="product">
+        <h3 class="product__title">Samsung Galaxy Z Fold 3</h3>
+        <p class="product__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quia consequuntur, sequi nisi quasi cupiditate?
+        </p>
+        <p class="product__price">16000.00</p>
+      </div>
+      <div id="product3" class="product">
+        <h3 class="product__title">Sony PlayStation 5</h3>
+        <p class="product__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quia consequuntur, sequi nisi quasi cupiditate?
+        </p>
+        <p class="product__price">22000.00</p>
+      </div>
+    </div>
+    <div class="reviews__container">
+      <div class="reviews__box">
+        <ul class="reviews"></ul>
+        <div class="form">
+          <div class="err__message"></div>
+          <textarea id="input2" name="text" class="input" rows="6" cols="38" placeholder="Напишите комментарий"></textarea>
+          <div class="error__message"></div>
+          <button data-togle-id="product1" class="add-button">Добавить отзыв</button>
+        </div>
+      </div>
+      <div class="reviews__box">
+        <ul class="reviews"></ul>
+        <div class="form">
+          <div class="err__message"></div>
+          <textarea name="text" class="input" rows="6" cols="38" placeholder="Напишите комментарий"></textarea>
+          <div class="error__message"></div>
+          <button data-togle-id="product2" class="add-button">Добавить отзыв</button>
+        </div>
+      </div>
+      <div class="reviews__box">
+        <ul class="reviews"></ul>
+        <div class="form">
+          <div class="err__message"></div>
+          <textarea name="text" class="input" rows="6" cols="38" placeholder="Напишите комментарий"></textarea>
+          <div class="error__message"></div>
+          <button data-togle-id="product3" class="add-button">Добавить отзыв</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
